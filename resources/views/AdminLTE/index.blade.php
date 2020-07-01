@@ -62,13 +62,3 @@ Welcome
     </tbody>
 </table>
 @endsection
-
-@push('jsPlus')
-<script src="{{ asset('AdminLTE/plugins/datatables/jquery.dataTables.js')}}"></script>
-<script src="{{ asset('AdminLTE/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
-<script>
-    $(function() {
-        $("#example1").DataTable();
-    });
-</script>
-@endpush
